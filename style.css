@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #15202B;
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.heading {
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: "Abril Fatface";
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    height: 100%;
+}
+
+.reactive-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#input {
+    border: none;
+    font-family: "Inter";
+    background-color: rgb(37, 51, 65);
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
+    padding-left: 15px;
+    width: 200px;
+    outline: none;
+    height: 30px;
+}
+
+.click-button {
+    width: 30px;
+}
+
+.clicker-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(25, 39, 52);
+    width: 300px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+button {
+    font-family: "Inter";
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+}
+
+button:active {
+    background-color: rgb(39, 147, 219);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: rgb(25, 39, 52);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(43, 60, 75);
+    border-radius: 10px;
+}
+
+i {
+    margin-bottom: 40px;
+}
+
+
+i:hover {
+    cursor: pointer;
+}
