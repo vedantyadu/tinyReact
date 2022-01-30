@@ -6,12 +6,14 @@ https://tinyreact.vedanttiwari.repl.co/
   
   
 
-#### Creating an element ####
+### Creating an element ###
 ```js
 tinyReact.createElement("div", {className: "example-div"}, ["hello world"]);
 ```
 
-#### Creating a component ####
+### Creating a component ###
+Components are very similar to react components, the only difference is there is no JSX.  
+So, you have to manually use `createElement` in the render method.
 ```js
 class App extends tinyReact.Component {
     constructor(props) {
@@ -32,7 +34,7 @@ class App extends tinyReact.Component {
 }
 ```
   
-#### Mounting a component ####
+### Mounting a component ###
 ```js
 tinyReact.mount(tinyReact.createElement(App), document.querySelector("#root"));
 ```
