@@ -1,6 +1,10 @@
 # tinyReact
 A simple version of Reactjs with support for components and state.  
 
+  
+#### Demo ####
+https://tinyreact.vedanttiwari.repl.co/
+
 #### Creating an element ####
 ```js
 tinyReact.createElement("div", {className: "example-div"}, ["hello world"]);
@@ -31,6 +35,3 @@ class App extends tinyReact.Component {
 ```js
 tinyReact.mount(tinyReact.createElement(App), document.querySelector("#root"));
 ```
-  
-#### Demo ####
-https://tinyreact.vedanttiwari.repl.co/
