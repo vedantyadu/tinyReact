@@ -31,3 +31,6 @@ class App extends tinyReact.Component {
 ```js
 tinyReact.mount(tinyReact.createElement(App), document.querySelector("#root"));
 ```
+  
+#### Demo ####
+https://tinyreact.vedanttiwari.repl.co/
