@@ -112,6 +112,10 @@ button:hover {
     border-radius: 10px;
 }
 
+a {
+    color: #fff;
+}
+
 i {
     margin-bottom: 40px;
 }
