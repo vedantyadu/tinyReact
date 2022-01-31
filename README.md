@@ -7,6 +7,9 @@ https://vedantyadu.github.io/tinyReact/
   
 
 ### Creating an element ###
+An element can be a Component class or an HTML tag.  
+Props include className, id, onclick etc.
+Children can be string or `createElement` function calls.
 ```js
 tinyReact.createElement("div", {className: "example-div"}, ["hello world"]);
 ```
@@ -35,6 +38,7 @@ class App extends tinyReact.Component {
 ```
   
 ### Mounting a component ###
+
 ```js
 tinyReact.mount(tinyReact.createElement(App), document.querySelector("#root"));
 ```
