@@ -2,7 +2,7 @@
 A simple version of Reactjs with support for components and state.  
 
   
-https://tinyreact.vedanttiwari.repl.co/  
+https://vedantyadu.github.io/tinyReact/
   
   
 
