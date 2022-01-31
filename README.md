@@ -16,7 +16,7 @@ tinyReact.createElement("div", {className: "example-div"}, ["hello world"]);
 
 ## Creating a component ##
 Components are very similar to react components, the only difference is there is no JSX.  
-So, you have to manually return an element in the render method.
+So, you have to manually return an ***element*** in the render method.
 ```js
 class App extends tinyReact.Component {
     constructor(props) {
