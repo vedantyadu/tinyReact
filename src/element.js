@@ -1,5 +1,5 @@
 
-/* Provides a blueprint for the render method */
+/* Provide a blueprint for the render method */
 export function createElement(type, props={}, childarr=[]) {
     const children = [];
     for (const child of childarr) {
