@@ -32,7 +32,7 @@ class InputComp extends tinyReact.Component {
         return (
             tinyReact.createElement("div", {className: "reactive-input"}, [
                 tinyReact.createElement("input", {
-                    id:"input", value:this.state.curText, onchange: this.changeText, autocomplete:"off"
+                    id:"input", value:this.state.curText, onkeyup: this.changeText, autocomplete:"off"
                 }),
                 tinyReact.createElement("p", {}, [this.state.curText])
             ])
