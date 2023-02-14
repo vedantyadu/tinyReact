@@ -1,5 +1,5 @@
 # tinyReact
-A simple version of Reactjs with support for components and state.  
+A UI framework made by reverse engineering React.  
 
   
 Demo 👉 https://vedantyadu.github.io/tinyReact/
