@@ -2,7 +2,7 @@
 A UI framework made by reverse engineering React.  
 
   
-Demo 👉 https://vedantyadu.github.io/tinyReact/
+A basic click counter made using tinyReact 👉 https://vedantyadu.github.io/tinyReact/
   
   
 
